@@ -1,0 +1,17 @@
+@charset 'utf-8';
+
+th {
+    border:1px solid;
+}
+
+td {
+    border:1px solid
+};
+
+button {
+    display: block;
+}
+
+.error {
+    color: red;
+}
