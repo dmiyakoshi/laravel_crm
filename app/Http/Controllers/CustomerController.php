@@ -105,7 +105,7 @@ class CustomerController extends Controller
 
         $customer->save();
 
-        return redirect()->route('customers.index');
+        return view('customers.show', compact('customer'));
     }
 
     /**
